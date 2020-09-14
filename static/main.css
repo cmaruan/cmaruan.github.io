@@ -21,17 +21,24 @@ body {
     margin-right: auto;
 }
 
+.short-bio {
+    text-align: justify;
+    z-index: 10;
+}
+
 ul.social-links  {
     padding: 0;
     list-style: none;
     display: inline-block;
-    position: absolute;
+    position: relative;
     bottom: 0;
+    
 }
 
 .social-links li{
     list-style: none;
     display: inline-block;
+    z-index: 10;
 }
 
 .social {
@@ -202,6 +209,9 @@ li.theme-list-item {
 }
 
 
-
+ul.social-links  {
+    position: absolute;
+    
+}
 
 }
