@@ -12,13 +12,31 @@ body {
 }
 
 #profile-picture {
-    width:  175px;
-    height: 175px;
+    width:  200px;
+    height: 200px;
     border-radius: 50%;
     -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
     margin-left: auto;
     margin-right: auto;
+}
+
+ul.social-links  {
+    padding: 0;
+    list-style: none;
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+}
+
+.social-links li{
+    list-style: none;
+    display: inline-block;
+}
+
+.social {
+    width: 40px;
+    height: 40px;
 }
 
 .theme-gray {
@@ -83,13 +101,8 @@ ul.skills li {
 ul.timeline {
     list-style-type: none;
     position: relative;
-
 }
 
-/* Timeline vertical line */
-ul.timeline {
-    padding-inline-start: 0px;
-}
 /* Timelien item */
 li.timeline-item {
     margin: 10px 10px;
@@ -108,8 +121,6 @@ li.timeline-item {
 
 
 
-
-
 /* tablet and up! */
 @media (min-width: 768px) { 
 
@@ -120,8 +131,8 @@ ul.timeline {
     padding-left: 1.5rem;
 }
 
- /* Timeline vertical line */
-ul.timeline:before {
+/* Timeline vertical line */
+ul.timeline::before {
     content: ' ';
     background: #D2D3D4;
     display: inline-block;
@@ -164,4 +175,33 @@ li.timeline-item::before {
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
     margin-top: 3px;
 }
+
+
+
+ul.theme-list {
+    list-style-type: none;
+    position: relative;
+    padding-left: 1.5rem;
+}
+
+
+li.theme-list-item {
+    margin: 0px 0;
+    padding-top: 2rem;
+    padding-left: 5rem;
+    padding-right: 2rem;
+}
+
+
+.theme-list-focus {
+    display: block;
+    position: absolute;
+    left: 0;
+    color: #0064AF;
+    font-weight: 100;
+}
+
+
+
+
 }
