@@ -1,0 +1,104 @@
+{
+    "greetings": "Hey, there! I am Cristian!",
+    "name": "Cristian Maruan Bosin",
+    "bio": [
+        "Technology enthusiast, I love learning new things!",
+        "Interests range from Medical and Health Care Applications,",
+        "Embedded Systems, Computer Vision, Digital Signal Processing to Business Inteligence."
+    ],
+    "instagram": "cmaruan",
+    "linkedin": "cmaruan",
+    "email": "cmaruanbosin@gmail.com",
+    "phone": "+55 53 98133 7636",
+    "education": {
+        "name": "EDUCATION",
+        "entries": [
+            {
+                "start": "2021",
+                "end": "now",
+                "title": "M.Sc. Post Graduate Program in Computing",
+                "school": "Universidade Federal de Pelotas",
+                "location": "Pelotas/RS Brazil"
+            },
+            {
+                "start": "2011",
+                "end": "2020",
+                "title": "B.Sc. Computer Engineer",
+                "school": "Universidade Federal de Pelotas",
+                "location": "Pelotas/RS Brazil"
+            }
+        ]
+    },
+    "skills": {
+        "name": "SKILLS",
+        "technical": {
+            "name": "Technical",
+            "entries": [
+                { "name": "C/C++", "percentage": 85 },
+                { "name": "Python", "percentage": 90 },
+                { "name": "Django", "percentage": 75 },
+                { "name": "Javascript", "percentage": 80 },
+                { "name": "ReactJS", "percentage": 75 }
+            ]
+        }, 
+        "professional": {
+            "name": "Professional",
+            "entries": [
+                { "name": "Teamwork" },
+                { "name": "Lidership" },
+                { "name": "Problem Solving" },
+                { "name": "Productivity" }
+            ]
+        }
+    },
+    "experience": {
+        "name": "EXPERIENCE",
+        "entries": [
+            {
+                "start": "2020",
+                "end": "2020",
+                "title": "Internship",
+                "company": "Universidade Federal de Pelotas",
+                "location": "Pelotas/RS Brazil",
+                "activities": [
+                    "Light Field Coding",
+                    "Project developed in Python and C++17"
+                ]
+            },
+            {
+                "start": "2017",
+                "end": "2020",
+                "title": "Information Technology Analyst",
+                "company": "WAM Brasil",
+                "location": "Gramado/RS Brazil",
+                "activities": [
+                    "Management and maintenance of computer networks",
+                    "Configuration and setup of computers, servers and printers",
+                    "Warehouse management",
+                    "Documentaton and software training"
+                ]
+            },
+            {
+                "start": "2015",
+                "end": "2017",
+                "title": "English Teacher",
+                "company": "MAB Centro de Idiomas",
+                "location": "Pelotas/RS Brazil",
+                "activities": [
+                    "English teacher for children and adults"
+                ]
+            },
+            {
+                "start": "2013",
+                "end": "2014",
+                "title": "Exchange Student",
+                "company": "Stony Brook University",
+                "location": "New York USA",
+                "activities": [
+                    "Visiting student",
+                    "Science without Borders Program"
+                ]
+            }
+        ]
+    }
+}
